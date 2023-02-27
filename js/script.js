@@ -13,13 +13,11 @@ inputEl.addEventListener('click', function() {
     for(let i = 0; i < listaMail.length; i++) {
 
         //se la mail corrisponde
-        if (listaMail[i] == mailEl.value) {
+        if (listaMail[i] == mailEl) {
             verificato = true;
         }
 
     }
-
-    
 
     if (verificato == true) {
         console.log('Accesso verificato.');
@@ -28,4 +26,3 @@ inputEl.addEventListener('click', function() {
     }
 
 });
-

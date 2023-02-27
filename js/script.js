@@ -19,10 +19,16 @@ inputEl.addEventListener('click', function() {
 
     }
 
+    let newEelement = document.createElement('b');
+    formResult.append(newEelement);
+
     if (verificato == true) {
-        console.log('Accesso verificato.');
+        //console.log('Accesso verificato.');
+        newEelement.innerHTML = "La tua mail è corretta.";
     } else {
-        console.log('Accesso interdetto.');
+        //console.log('Accesso interdetto.');
+        newEelement.innerHTML = "La tua mail è sconosciuta.";
+
     }
 
 });

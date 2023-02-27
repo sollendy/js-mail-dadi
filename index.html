@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div id="title" class="text-center pt-1">
+        <h1>Skraus Casinò</h1>
+    </div>
     <div class="container d-flex align-items-center justify-content-around">
-        
         <div class="input-cnt d-flex gap-4 align-items-center pt-3">
             <label for="inputEmail3" class="">Email</label>
             <div class="d-flex gap-2">
@@ -23,9 +25,26 @@
 
         </div>
     </div>
-
-    <div id="dadiMalefici">
+    <br>
+    <br>
+    <hr>
+    <div id="dadiMalefici" class="">
+        <h1 class="text-center">Gioca col destino</h1>
+        <div class="gameCont d-flex flex-column align-items-center">
+            <div>
+                <button id="bottoneMagico">
+                    Lancio!
+                </button>
+            </div>
+            <div id="datiCont" class="d-flex">
+                <div id="giocatore" class="caselle">
         
+                </div>
+                <div id="CPU" class="caselle">
+        
+                </div>
+            </div>
+        </div>
     </div>
     <script src="js/script.js"></script>
 </body>

@@ -10,7 +10,7 @@ inputEl.addEventListener('click', function() {
 
     let verificato = false;
 
-    for(let i = 0; i <= listaMail.length; i++) {
+    for(let i = 0; i < listaMail.length; i++) {
 
         //se la mail corrisponde
         if (listaMail[i] == mailEl.value) {

@@ -4,7 +4,7 @@ let inputEl = document.getElementById('bottone');
 let formResult = document.getElementById("inputNext");
 
 //creo una serie di variabili con l'array
-let listaMail = ["maronno@addicted.it","gigicastrenze@lolla.it","ornellobergogli@unknown.it","lavedenza@santa.it","coniglio@molesto.com","versolinfinito@eoltre.com"];
+let listaMail = ["maronno@addicted.it","gigicastrenze@lolla.it","ornellobergogli@laspia.it","lavedenza@santa.it","coniglio@molesto.com","versolinfinito@eoltre.com"];
 
 inputEl.addEventListener('click', function() {
 

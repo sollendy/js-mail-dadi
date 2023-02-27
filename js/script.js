@@ -1,5 +1,5 @@
 //do una variabile alla mail 
-let mail = document.getElementById("inputEmail3");
+let mailEl = document.getElementById("inputEmail3");
 //let formResult = document.createElement('');
 
 //creo una serie di variabili con l'array
@@ -12,4 +12,4 @@ for(let i = 0; i <= listaMail.length; i++) {
 }
 
 //impianto le condizioni
-if(mail.value )
+if(mailEl.value = )

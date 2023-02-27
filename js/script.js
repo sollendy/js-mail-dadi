@@ -22,7 +22,7 @@ inputEl.addEventListener('click', function() {
     if (verificato == true) {
         console.log('Accesso verificato.');
     } else {
-        console.log('accesso interdetto.');
+        console.log('Accesso interdetto.');
     }
 
 });

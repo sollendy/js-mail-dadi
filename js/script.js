@@ -1,15 +1,29 @@
 //do una variabile alla mail 
-let mailEl = document.getElementById("inputEmail3");
-//let formResult = document.createElement('');
+let mailEl = document.getElementById("inputEmail3").value;
+let inputEl = document.getElementById('bottone');
+let formResult = document.createElement('b');
 
 //creo una serie di variabili con l'array
+let listaMail = ["maronno@addicted.it","gigicastrenze@lolla.it","ornellobergogli@unknown.it","lavedenza@santa.it","coniglio@molesto.com","versolinfinito@eoltre.com"];
 
-let listaMail = ["maronno@addicted.it","gigicastrenze@lolla.it","ornellobergogli@unkown.it","lavedenza@santa.it","coniglio@molesto.com","versolinfinito@eoltre.com"];
+inputEl.addEventListener('click', function() {
 
-//rendo l'array visibile nella console
-for(let i = 0; i <= listaMail.length; i++) {
-    console.log(listaMail);
-}
+    let verificato = false;
 
-//impianto le condizioni
-if(mailEl.value = )
+    for(let i = 0; i <= listaMail.length; i++) {
+
+        //se la mail corrisponde
+        if (listaMail[i] == mailEl.value) {
+            verificato = true;
+        }
+
+    }
+
+    if (verificato == true) {
+        console.log('Accesso verificato.');
+    } else {
+        console.log('accesso interdetto.');
+    }
+
+});
+

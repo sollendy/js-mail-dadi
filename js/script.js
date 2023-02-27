@@ -1,7 +1,7 @@
 //do una variabile alla mail 
 let mailEl = document.getElementById("inputEmail3").value;
 let inputEl = document.getElementById('bottone');
-let formResult = document.createElement('b');
+let formResult = getElementById('inputNext');
 
 //creo una serie di variabili con l'array
 let listaMail = ["maronno@addicted.it","gigicastrenze@lolla.it","ornellobergogli@unknown.it","lavedenza@santa.it","coniglio@molesto.com","versolinfinito@eoltre.com"];
@@ -13,7 +13,7 @@ inputEl.addEventListener('click', function() {
     for(let i = 0; i < listaMail.length; i++) {
 
         //se la mail corrisponde
-        if (listaMail[i] == mailEl.value) {
+        if (listaMail[i] == mailEl) {
             verificato = true;
         }
 
